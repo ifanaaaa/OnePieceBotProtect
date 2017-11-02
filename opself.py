@@ -6,43 +6,43 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE() # Akun Utama
-cl.login(qr=True)
+cl.login(token="EmlNz0lCsWWWGGvnhrr6.8c72ir4ebAnfw7s7cdExTG.IJtUjco3CeEF9ebW6AUJiNkZXKrpGiIIzy5F5q6yI3s=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Bot 1
-ki.login(qr=True)
+ki.login(token="EmzASGPa8aIKV27NCH36.nnVp0cPRqeYLHt8zSS06bG.p2W9MvOidsHvgq9HHYzlOK64KtqCQODwJz3Bn4AchjY=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Bot 2
-kk.login(qr=True)
+kk.login(token="Emge2UTeZsoD0SE6IKT4.XdqmJl+DI73beuB/IrLfva.6PvGdrEtb7mOCA3bleT1W1gKRdsseKZIX4Ot9/68E0c=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Bot 3
-kc.login(qr=True)
+kc.login(token="Em24h13bxs2cT3LLqn9c.Ow6wmFXQbUClXSYjzkpnZa.hs8zMnCm8Rw8hjD4ys8Lwt85yqQB7XLd+VPTBElnZyc=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Bot 4
-ks.login(qr=True)
+ks.login(token="EmDypVbyxCc30E0QLaPc.p7LZBmIWOFOo/dtmmEVnVa.L3QfZHTA7GRyvRs38pAP/vGaemvQ4y3QUdwJLZRjSu4=")
 ks.loginResult()
 
 ka = LINETCR.LINE() #Bot 5
-ka.login(qr=True)
+ka.login(token="EmCGBTXiQO6kM2snRmv0.Pe1JOl1xU0q9g4ayAQeJ0a.6HaV/SyeHaV5YRutpI1kWjz19e9bqm9Co9Pc6ev34Uo=")
 ka.loginResult()
 
 kb = LINETCR.LINE() #Bot 6
-kb.login(qr=True)
+kb.login(token="EmxPwDqvV7mTdGueFGV2.LqryDlImlRnVjAln2KFa8G.1tSpFoZkg/kIG0Z4lc+AHuiIi73+WimH2a9KbcoYzvU=")
 kb.loginResult()
 
 ko = LINETCR.LINE() #Bot 7
-ko.login(qr=True)
+ko.login(token="EmpweIPdr5JjVR96jIr8.5yDH+AEJPTz/t1Acc0f8Ea.pBNGDrbpmxrbhIzR1RshP4dWYs67tAvZCun+QJkbSiA=")
 ko.loginResult()
 
 ke = LINETCR.LINE() #Bot 8
-ke.login(qr=True)
+ke.login(token="Emk6R0UHRpk3WhwP9ZUf.ooIJahTbyLSTiv8yewAnpW.iCeb8lLUyLldLkEzlNErydbCIFgbQ9XHr00aiulb5T0=")
 ke.loginResult()
 
 ku = LINETCR.LINE() #Bot 9
-ku.login(qr=True)
+ku.login(token="Em1t0LbO9V1Z8CbGBqz3.V9+k7nqMxmmhHtNLiWZl8W.m2mA5BWH92cTAqoZVQvGi+dAh0+q2dsZl9K5m+ynJ8A=")
 ku.loginResult()
 
 print "login success plak"
